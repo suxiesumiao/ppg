@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/sort/sort",
+    "pages/shopping/shopping",
+    "pages/user/user",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "拼拼购商城",
+    "navigationBarTextStyle": "black",
+    "navigationBarPosition": "left" 
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#d00",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-selected.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "images/sort.png",
+        "selectedIconPath": "images/sort-selected.png",
+        "pagePath": "pages/sort/sort",
+        "text": "分类"
+      },
+      {
+        "iconPath": "images/shopping.png",
+        "selectedIconPath": "images/shopping-selected.png",
+        "pagePath": "pages/shopping/shopping",
+        "text": "购物车"
+      },
+      {
+        "iconPath": "images/user.png",
+        "selectedIconPath": "images/user-selected.png",
+        "pagePath": "pages/user/user",
+        "text": "我的"
+      }
+    ]
+  },
+  "networkTimeout": {},
+  "debug": false
+}
